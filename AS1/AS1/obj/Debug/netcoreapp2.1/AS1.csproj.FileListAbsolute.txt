@@ -12,3 +12,17 @@ C:\Users\bmuise7313\Desktop\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.RazorTargetA
 C:\Users\bmuise7313\Desktop\CPA\AS1\AS1\bin\Debug\netcoreapp2.1\AS1.pdb
 C:\Users\bmuise7313\Desktop\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.dll
 C:\Users\bmuise7313\Desktop\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.pdb
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\bin\Debug\netcoreapp2.1\AS1.deps.json
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\bin\Debug\netcoreapp2.1\AS1.runtimeconfig.json
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\bin\Debug\netcoreapp2.1\AS1.runtimeconfig.dev.json
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\bin\Debug\netcoreapp2.1\AS1.dll
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\bin\Debug\netcoreapp2.1\AS1.pdb
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.csprojAssemblyReference.cache
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.csproj.CoreCompileInputs.cache
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.RazorAssemblyInfo.cache
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.RazorAssemblyInfo.cs
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.AssemblyInfoInputs.cache
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.AssemblyInfo.cs
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.RazorTargetAssemblyInfo.cache
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.dll
+C:\Users\Brad\Documents\GitHub\CPA\AS1\AS1\obj\Debug\netcoreapp2.1\AS1.pdb

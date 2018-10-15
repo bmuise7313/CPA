@@ -12,6 +12,8 @@ namespace AS1
         {
             services.AddDbContext<SongContext>(opt =>
                 opt.UseInMemoryDatabase("SongList"));
+            services.AddDbContext<ReviewContext>(opt =>
+    opt.UseInMemoryDatabase("ReviewList"));
             services.AddMvc()
                     .SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

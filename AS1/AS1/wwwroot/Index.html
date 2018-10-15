@@ -47,9 +47,22 @@
         <h3>Edit</h3>
         <form class="my-form">
             <input type="hidden" id="edit-id">
-            <input type="text" id="edit-artist">
-            <input type="text" id="edit-name">
+            <input type="text" id="edit-artist" placeholder="Artist Name">
+            <input type="text" id="edit-name" placeholder="Song Name">
             <input type="submit" value="Edit">
+            <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+        </form>
+    </div>
+
+    <div id="spoiler2">
+        <h3>Add Review</h3>
+        <form class="my-form2">
+            <input type="hidden" id="add-reviewId">
+            <input type="hidden" id="add-songId">
+            <input type="text" id="add-reviewName" placeholder="ReviewerName">
+            <input type="text" id="add-SongName" placeholder="Song Name">
+            <input type="text" id="add-Review" placeholder="Review">
+            <input type="submit" value="Add">
             <a onclick="closeInput()" aria-label="Close">&#10006;</a>
         </form>
     </div>
@@ -60,11 +73,14 @@
         <tr>
             <th>Artist</th>
             <th>Name</th>
+            <th>Edit</th>
+            <th>Delete</th>
             <th>Add Review</th>
-            <th></th>
         </tr>
         <tbody id="songs"></tbody>
     </table>
+
+    <a href="Review.html">View Reviews</a>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
             integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
