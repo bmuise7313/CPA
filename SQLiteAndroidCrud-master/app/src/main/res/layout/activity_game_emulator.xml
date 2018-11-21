@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/lblPlayer1"
+        android:layout_width="80dp"
+        android:layout_height="29dp"
+        android:text="Player 1: " />
+    <TextView
+        android:id="@+id/txtPlayer1"
+        android:layout_width="102dp"
+        android:layout_height="28dp"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/lblPlayer2"
+        android:layout_width="80dp"
+        android:layout_height="29dp"
+        android:text="Player 2: " />
+    <TextView
+        android:id="@+id/txtPlayer2"
+        android:layout_width="102dp"
+        android:layout_height="28dp"
+        android:text="TextView" />
+
+
+    <Button
+        android:id="@+id/btnPlayer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPlay1"
+        android:text="Player1 Wins!" />
+
+    <Button
+        android:id="@+id/btnPlayer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player2 Wins" />
+    <Button
+        android:id="@+id/btnTie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tie!" />
+
+</LinearLayout>

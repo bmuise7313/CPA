@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btnScoreBoard"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:text="Score Board"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Button
+        android:id="@+id/btnSelect1"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:text="Select Player1"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <Button
+        android:id="@+id/btnSelect2"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:text="Select Player2"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/btnAddPlayer"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:text="Add Player"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="163dp"
+        android:layout_height="50dp"
+        android:text="Start Game"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="47dp" />
+</LinearLayout>
