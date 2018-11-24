@@ -2,9 +2,11 @@ package io.github.rhildred.crud;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -12,11 +14,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import static android.content.Context.MODE_PRIVATE;
+
 /**
  * Created by rhildred on 11/8/2016.
  */
 public class PlayerDB {
     // database constants
+    Context mContext;
     public static final String DB_NAME = "player.sqlite";
     public static final int    DB_VERSION = 1;
     private static class DBHelper extends SQLiteOpenHelper {
@@ -104,5 +109,16 @@ public class PlayerDB {
         String selectQuery = "UPDATE players SET Wins = Wins + 1 WHERE name =" + Name;
         db.execSQL(selectQuery);
         closeDB();
+    }
+
+     void SavePreferences(String key, String value) {
+        PreferenceManager.getDefaultSharedPreferences(mContext).edit().putString(key, value).apply();
+
+    }
+
+     String LoadPreferences(String key) {
+        String name;
+       name = PreferenceManager.getDefaultSharedPreferences(mContext).getString(key, "Not Found");
+        return (name);
     }
 }

@@ -14,8 +14,8 @@ public class gameEmulatorActivity extends AppCompatActivity {
     private Button player1Button;
     private Button player2Button;
     private Button btnTie;
-    private String selectedPlayer1;
-    private String selectedPlayer2;
+    String selectedPlayer1;
+    String selectedPlayer2;
     private int ID1;
     private int ID2;
     private PlayerDB db;
@@ -25,12 +25,9 @@ public class gameEmulatorActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game_emulator);
         player1Text = (TextView) findViewById(R.id.txtPlayer1);
         player2Text = (TextView) findViewById(R.id.txtPlayer2);
-        Bundle intentExtras = getIntent().getExtras();
-        if( intentExtras !=null)
-        {
-            selectedPlayer1 = intentExtras.getString("player1");
-            selectedPlayer2 = getIntent().getExtras().getString("player2");
-        }
+        String key1 = "player1";
+ selectedPlayer1 = db.LoadPreferences("player1");
+selectedPlayer2 = db.LoadPreferences("player2");
         System.out.println("Chosen Name = : " + selectedPlayer1);
             player1Text.setText(selectedPlayer1);
             player2Text.setText(selectedPlayer2);
@@ -39,9 +36,9 @@ public class gameEmulatorActivity extends AppCompatActivity {
 
     }
     protected void onClickPlay1(){
-        String sName = selectedPlayer1;
         try {
-            db.player1Wins(sName);
+
+            db.player1Wins(selectedPlayer1);
         } catch (Exception e) {
             e.printStackTrace();
         }

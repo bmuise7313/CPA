@@ -36,6 +36,7 @@ public class SelectPlayer1Activity extends AppCompatActivity {
                 String segments2[] = name.split("=");
                 String name2 = segments2[1];
                 Bundle extras = new Bundle();
+                db.SavePreferences("player1", name2);
                 extras.putString("player1", name2);
                 intent.putExtras(extras);
                 startActivity(intent);
